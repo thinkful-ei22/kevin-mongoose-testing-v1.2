@@ -2,3 +2,8 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+  app: murmuring-dusk-50037
+  on: feature/with-tests
