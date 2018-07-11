@@ -6,6 +6,8 @@ deploy:
   provider: heroku
   api-key: 3c1fe029-132d-4123-a1d3-d7bd93c9025e
   app: murmuring-dusk-50037
-  on: feature/with-tests
+  on: 
+    repo: thinkful-ei22/kevin-mongoose-testing-v1.2
+    branch: feature/with-tests
   
 
