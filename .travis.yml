@@ -4,8 +4,8 @@ services:
 - mongodb
 deploy:
   provider: heroku
-  api_key:
+  api-key: 3c1fe029-132d-4123-a1d3-d7bd93c9025e
   app: murmuring-dusk-50037
   on: feature/with-tests
-  api-key: 3c1fe029-132d-4123-a1d3-d7bd93c9025e
+  
 
